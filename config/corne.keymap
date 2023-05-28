@@ -15,6 +15,10 @@
 #define NUM 4
 #define FN 5
 
+&mt {
+        tapping-term-ms = <400>;
+};
+
 / {
         combos {
                 compatible = "zmk,combos";
