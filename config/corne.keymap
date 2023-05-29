@@ -62,13 +62,13 @@
 
                 media_layer {
 // ---------------------------------------------------------------------------------------------------------------------
-// |BT 0 |BT 1  |BT 2 |BT 3 |BT 4 |   |     |     |     |     |     |
+// |BT 0 |BT 1  |BT 2 |BT 3 |BT 4 |   |     |     |     |     |BTCLR|
 // |CTRL^|OPTION| CMD |SHIFT|CAPSL|   | MUTE| PREV|VDOWN|VOLUP| NEXT|
 // |     |      |     |     |     |   |     |     |     |     |     |
 //              | GUI |     | SPC |   | ENT |     | ALT |
 
                         bindings = <
-  &trans  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans      &trans      &trans        &trans        &trans      &trans
+  &trans  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans      &trans      &trans        &trans        &bt BT_CLR  &trans
   &trans  &kp LCTRL    &kp LALT     &kp LCMD     &kp LSHIFT   &kp CAPS          &kp C_MUTE  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans
   &trans  &trans       &trans       &trans       &trans       &trans            &trans      &trans      &trans        &trans        &trans      &trans
                             &trans       &trans       &trans            &trans      &trans      &trans
