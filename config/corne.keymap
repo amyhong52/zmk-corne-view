@@ -48,15 +48,15 @@
 
                 nav_layer {
 // ---------------------------------------------------------------------------------------------------------------------
-// |      |      |     |     |     |   |  CUT| COPY|PASTE| UNDO| REDO|
+// |      |      |     |     |     |   |     |     |     |     |     |
 // |CTRL^ |OPTION| CMD |SHIFT|CAPSL|   |     | LEFT| DOWN|   UP|RIGHT|
-// |MAGNET|      |     |     |     |   |     | HOME|PGDWN| PGUP|  END|
+// |  UNDO|   CUT| COPY|PASTE| REDO|   |     | HOME|PGDWN| PGUP|  END|
 //               | NAV |     |     |   |     |     |     |
                         bindings = <
-   &trans  &trans     &trans    &trans    &trans      &trans        &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LG(Y)  &trans
-   &trans  &kp LCTRL  &kp LALT  &kp LCMD  &kp LSHIFT  &kp CAPS      &trans     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
-   &trans  &trans     &trans    &trans    &trans      &trans        &trans     &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans
-                                &trans    &trans      &trans        &trans     &trans     &trans
+   &trans  &trans     &trans     &trans     &trans      &trans        &trans     &trans     &trans     &trans     &trans     &trans
+   &trans  &kp LCTRL  &kp LALT   &kp LCMD   &kp LSHIFT  &kp CAPS      &trans     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
+   &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(Y)     &trans     &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans
+                                 &trans     &trans      &trans        &trans     &trans     &trans
                         >;
                 };
 
