@@ -20,17 +20,8 @@
 };
 
 / {
-        combos {
-                compatible = "zmk,combos";
-                combo_magnet {
-                        timeout-ms = <50>;
-                        key-positions = <36 24>;  // NAV Z
-                        bindings = <&kp LCTRL &kp LALT>;
-                };
-        };
         keymap {
                 compatible = "zmk,keymap";
-
                 default_layer {
 // ---------------------------------------------------------------------------------------------------------------------
 //  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  |
