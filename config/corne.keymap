@@ -37,20 +37,6 @@
                         >;
                 };
 
-                nav_layer {
-// ---------------------------------------------------------------------------------------------------------------------
-// |      |      |     |     |     |   |     |     |     |     |     |
-// |CTRL^ |OPTION| CMD |SHIFT|CAPSL|   |     | LEFT| DOWN|   UP|RIGHT|
-// |  UNDO|   CUT| COPY|PASTE| REDO|   |     | HOME|PGDWN| PGUP|  END|
-//               | NAV |     |     |   |     |     |     |
-                        bindings = <
-   &trans  &trans     &trans     &trans     &trans      &trans        &trans     &trans     &trans     &trans     &trans     &trans
-   &trans  &kp LCTRL  &kp LALT   &kp LCMD   &kp LSHIFT  &kp CAPS      &trans     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
-   &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(Y)     &trans     &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans
-                                 &trans     &trans      &trans        &trans     &trans     &trans
-                        >;
-                };
-
                 media_layer {
 // ---------------------------------------------------------------------------------------------------------------------
 // |BT 0 |BT 1  |BT 2 |BT 3 |BT 4 |   |     |     |     |     |BTCLR|
@@ -63,6 +49,20 @@
   &trans  &kp LCTRL    &kp LALT     &kp LCMD     &kp LSHIFT   &kp CAPS          &kp C_MUTE  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans
   &trans  &trans       &trans       &trans       &trans       &trans            &trans      &trans      &trans        &trans        &trans      &trans
                                     &trans       &trans       &trans            &trans      &trans      &trans
+                        >;
+                };
+
+                nav_layer {
+// ---------------------------------------------------------------------------------------------------------------------
+// |      |      |     |     |     |   |     |     |     |     |     |
+// |CTRL^ |OPTION| CMD |SHIFT|CAPSL|   |     | LEFT| DOWN|   UP|RIGHT|
+// |  UNDO|   CUT| COPY|PASTE| REDO|   |     | HOME|PGDWN| PGUP|  END|
+//               | NAV |     |     |   |     |     |     |
+                        bindings = <
+   &trans  &trans     &trans     &trans     &trans      &trans        &trans     &trans     &trans     &trans     &trans     &trans
+   &trans  &kp LCTRL  &kp LALT   &kp LCMD   &kp LSHIFT  &kp CAPS      &trans     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
+   &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(Y)     &trans     &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans
+                                 &trans     &trans      &trans        &trans     &trans     &trans
                         >;
                 };
 
