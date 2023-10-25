@@ -16,7 +16,7 @@
 #define FN 5
 
 &mt {
-        tapping-term-ms = <200>;
+        tapping-term-ms = <250>;
 };
 
 / {
